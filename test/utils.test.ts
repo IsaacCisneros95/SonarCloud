@@ -1,4 +1,4 @@
-import { sum } from "../utils";
+import { sum } from "../lib/utils";
 
 describe("when calling sum", () => {
   it("returns the sum of the two number", () => {
