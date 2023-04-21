@@ -6,8 +6,6 @@ export class SonarCloudStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    throw new Error("test error");
-
     // The code that defines your stack goes here
 
     // example resource
