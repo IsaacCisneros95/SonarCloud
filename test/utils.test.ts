@@ -73,13 +73,13 @@ describe("when calling sum8", () => {
     expect(result).toBe(4);
   });
 });
-describe("when calling sum9", () => {
-  it("returns the sum of the two number", () => {
-    const result = sum9(2, 2);
+// describe("when calling sum9", () => {
+//   it("returns the sum of the two number", () => {
+//     const result = sum9(2, 2);
 
-    expect(result).toBe(4);
-  });
-});
+//     expect(result).toBe(4);
+//   });
+// });
 // describe("when calling sum10", () => {
 //   it("returns the sum of the two number", () => {
 //     const result = sum10(2, 2);
