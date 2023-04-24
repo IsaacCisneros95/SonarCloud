@@ -1,1 +1,11 @@
 export const sum = (a: number, b: number) => a + b;
+export const sum2 = (a: number, b: number) => a + b;
+export const sum3 = (a: number, b: number) => a + b;
+export const sum4 = (a: number, b: number) => a + b;
+export const sum5 = (a: number, b: number) => a + b;
+export const sum6 = (a: number, b: number) => a + b;
+export const sum7 = (a: number, b: number) => a + b;
+export const sum8 = (a: number, b: number) => a + b;
+export const sum9 = (a: number, b: number) => a + b;
+export const sum10 = (a: number, b: number) => a + b;
+export const sum11 = (a: number, b: number) => a + b;
