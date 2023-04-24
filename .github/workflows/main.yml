@@ -17,8 +17,14 @@ jobs:
       - name: Run tests
         run: npm test
   jest-codecoverage:
+    permissions: write-all
     runs-on: ubuntu-latest
     needs: build-and-test
     steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
       - uses: actions/checkout@v3
       - uses: ArtiomTr/jest-coverage-report-action@v2
