@@ -1,28 +1,11 @@
 export const sum = (a: number, b: number) => a + b;
-
-export const generatePassword = (
-  length: number,
-  includeDigits: boolean = true,
-  includeSymbols: boolean = true
-): string => {
-  const lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
-  const uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const digits = "0123456789";
-  const symbols = "!@#$%^&*()_+-=[]{}\\|;:'\",.<>/?";
-
-  let allowedChars = lowercaseLetters + uppercaseLetters;
-  if (includeDigits) {
-    allowedChars += digits;
-  }
-  if (includeSymbols) {
-    allowedChars += symbols;
-  }
-
-  let password = "";
-  for (let i = 0; i < length; i++) {
-    const randomIndex = Math.floor(Math.random() * allowedChars.length);
-    password += allowedChars[randomIndex];
-  }
-
-  return password;
-};
+export const sum2 = (a: number, b: number) => a + b;
+export const sum3 = (a: number, b: number) => a + b;
+export const sum4 = (a: number, b: number) => a + b;
+export const sum5 = (a: number, b: number) => a + b;
+export const sum6 = (a: number, b: number) => a + b;
+export const sum7 = (a: number, b: number) => a + b;
+export const sum8 = (a: number, b: number) => a + b;
+export const sum9 = (a: number, b: number) => a + b;
+export const sum10 = (a: number, b: number) => a + b;
+export const sum11 = (a: number, b: number) => a + b;
