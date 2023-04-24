@@ -5,4 +5,9 @@ module.exports = {
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
+  coverageThreshold: {
+    global: {
+      lines: 80,
+    },
+  },
 };
